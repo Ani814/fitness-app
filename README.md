@@ -1,2 +1,15 @@
-# fitness-app
-A RESTful API built with FastAPI for tracking workouts, weight records, and fitness goals. Includes user authentication with JWT, PostgreSQL database integration, and CRUD operations for workouts, weight entries, and fitness goals. Docker-ready setup included.
+# Personalized Workout Plan API
+
+This project provides a RESTful API for a Personalized Workout Plan System. 
+Users can create and manage custom workout plans, track their fitness goals, 
+and monitor their progress over time.
+
+## Features
+- **User Authentication:** Secure registration, login, and logout with JWT.
+- **Predefined Exercises Database:** Access a library of predefined exercises 
+  with descriptions, instructions, and targeted muscles.
+- **Personalized Workout Plans:** Create custom plans with exercises, 
+  frequency, goals, and duration.
+- **Progress Tracking:** Track weight, set goals, and monitor achievements.
+- **Workout Mode (Bonus):** Guided, real-time workout display (next exercises, sets, reps, rest).
+- **Dockerized Deployment:** Easy setup with Docker and Docker Compose.
